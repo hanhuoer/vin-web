@@ -8,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'writer',
+      component: () => import('./views/Writer.vue')
     },
     {
       path: '/about',
