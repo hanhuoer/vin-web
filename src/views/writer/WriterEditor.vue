@@ -1,13 +1,12 @@
 <template>
   <div>
-    writer note
   </div>
 </template>
 
 <script>
-export default {
-  name: 'WriterNote'
-}
+    export default {
+        name: "WriterEditor"
+    };
 </script>
 
 <style scoped>
